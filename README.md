@@ -14,7 +14,7 @@ Getting tired of writing the same code over and over to set up new applications 
 - Clean folder structure
 - Standard version to manage the versioning of your app
 - Husky for clean commits
-  More information [here](package.json)
+- More information [here](package.json)
 
 ## How to use
 
@@ -71,13 +71,19 @@ Paste this at the end :
   },
 ```
 
-##### 2 - Run script
+##### 2 - Clone this repo
+
+```
+git clone git@github.com:Nazort/boilerplate.git && cd boilerplate
+```
+
+##### 3 - Run script
 
 ```bash
 ./setupProject.sh path/to/your/app/
 ```
 
-##### 3 - Ready to go
+##### 4 - Ready to go
 
 ```
 yarn start
